@@ -1,0 +1,124 @@
+/* Importing Bootstrap SCSS file. */
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  margin: 0;
+  color: #000 !important;
+  height: 100%;
+}
+
+.font-medium {
+  font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif !important;
+  line-height: 74px;
+  letter-spacing: -0.05rem;
+}
+
+.bg-yellow {
+  background-color: #fdb239;
+}
+
+.border-bottom {
+  border-bottom: 2px solid black !important;
+}
+
+.border-top {
+  border-top: 2px solid black !important;
+}
+
+.link-black {
+  color: #000 !important;
+}
+
+.fw-bold {
+  font-weight: bold !important;
+}
+
+.bt-light {
+  color: #000;
+  background-color: #ffffff;
+  border-color: #000000;
+  border-radius: 100px !important;
+  padding: 0.375rem 0.75rem;
+
+  &:hover {
+    background-color: #000;
+    color: #fff;
+    border-color: #000;
+  }
+}
+
+.btn {
+  &:focus {
+    box-shadow: none !important;
+  }
+}
+
+.card-top {
+  margin: 0 10px;
+  .count {
+    font-size: 3rem;
+    color: #00000040 !important;
+  }
+}
+
+.description {
+  font-size: 0.7rem !important;
+  -webkit-line-clamp: 1;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  margin-bottom: 0;
+}
+
+.title {
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  margin-bottom: 0;
+  font-size: 16px !important;
+}
+
+.top-title {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 767px) {
+  .description {
+    font-size: 0.7rem !important;
+  }
+  .title {
+    font-size: 0.8rem !important;
+  }
+  .card-top {
+    margin: 0 !important;
+    .count {
+      font-size: 2.5rem !important;
+    }
+  }
+}
+
+@media (min-width: 490px) {
+  .font-medium {
+    font-size: 5rem !important;
+  }
+}
+
+@media (min-width: 975px) {
+  .title {
+    font-size: 18px !important;
+  }
+}
+
+.date {
+  color: #00000060;
+}
+
+.img-list {
+  height: 100px !important;
+  object-fit: cover !important;
+}
+
+.cursor-pointer:hover {
+  cursor: pointer !important;
+}

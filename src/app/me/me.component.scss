@@ -1,0 +1,51 @@
+.mt-6 {
+  margin-top: 6rem !important;
+}
+
+// font-size : 42, 14px
+
+h1 {
+  font-size: 34px !important;
+  font-weight: 400;
+}
+
+.btn-create {
+  border-radius: 500px !important;
+  padding: 7px 16px 9px !important;
+}
+
+.border-bottom {
+  border-bottom: 0.9px solid #00000020 !important;
+}
+
+nav {
+  a {
+    font-size: 14px !important;
+    color: #b3b3b3 !important;
+  }
+  .active {
+    color: black !important;
+    border-bottom: 0.9px solid black !important;
+  }
+}
+
+h6,
+h1.muted-text {
+  color: #b3b3b3 !important;
+  font-weight: 500 !important;
+  line-height: 2;
+}
+
+textarea.title {
+  font-size: 34px !important;
+  font-weight: 500;
+}
+
+textarea {
+  border: none !important;
+
+  &:focus {
+    border-color: #000000;
+    box-shadow: 0 0 0 0.2rem rgb(0 0 0 / 50%);
+  }
+}

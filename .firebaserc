@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "tulisin-9ded8": {
+      "hosting": {
+        "tulisin": [
+          "tulisin-9ded8"
+        ]
+      }
+    }
+  }
+}
